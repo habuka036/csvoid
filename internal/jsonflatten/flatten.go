@@ -1,6 +1,6 @@
 package jsonflatten
 
-import "github.com/habuka036/csvoid/internal/model"
+import "csvoid/internal/model"
 
 // FlattenTable flattens a nested JSON structure into a slice of TableRow for CSV/Excel.
 func FlattenTable(root interface{}) []model.TableRow {

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/habuka036/csvoid/internal/ui"
+import "csvoid/internal/ui"
 
 func main() {
 	ui.Launch()
